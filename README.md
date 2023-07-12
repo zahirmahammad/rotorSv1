@@ -4,6 +4,7 @@ Added f550 drone in existing CrazyS package
 
 Download the code into the xxx/xxx/src folder
 
+Follow the given commands
 
 
 ```
