@@ -1,1 +1,1 @@
-This is a CrazyS package integrated with F550 Drone
+This is a CrazyS package integrated with 6 additional drones
