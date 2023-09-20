@@ -44,10 +44,8 @@ catkin build
 source devel/setup.bash
 roslaunch rotors_gazebo mav_hovering_example.launch mav_name:=firefly world_name:=basic
 ```
-To spwan swarm of firefly drone use
-```
-roslaunch rotors_gazebo firefly_swarm_hovering_example.launch
-```
+![Screenshot 2023-09-20 004332](https://github.com/zahirmahammad/rotorSv1/assets/61276650/1abd0ba9-c036-4173-bcc7-96508fae7973)
+
 New List of drones
 1) hummingbird
 2) pelican
@@ -64,12 +62,31 @@ New List of drones
 source devel/setup.bash
 roslaunch rotors_gazebo f550_hovering_example.launch
 ```
+![Screenshot 2023-09-20 004522](https://github.com/zahirmahammad/rotorSv1/assets/61276650/9eed94b8-130d-4559-b7d5-7ce8cf773842)
+
 To spawn F550 Swarm in gazebo
 ```
 source devel/setup.bash
 roslaunch rotors_gazebo f550_swarm_hovering_example.launch
 ```
+![Screenshot 2023-09-20 004754](https://github.com/zahirmahammad/rotorSv1/assets/61276650/5b094e44-8696-43a5-89a7-7fe6f23ca1ee)
 
 Navigate into /CrazyS/rotors_gazebo/launch/ folder to go through various the launch files
+
+To spawn other drone models use the below command (note that xxx should be replaced with the model name)
+```
+roslaunch rotors_gazebo xxx_hovering_example.launch
+roslaunch rotors_gazebo xxx_swarm_hovering_example.launch #spawns the swarm of drone model
+```
+
+To spawn all the drones in the package
+```
+source devel/setup.bash
+roslaunch rotors_gazebo all_multicopters_hovering_example.launch
+```
+
+![Screenshot 2023-09-20 011319](https://github.com/zahirmahammad/rotorSv1/assets/61276650/f7985352-b634-426a-878a-43fc5abb3eab)
+
+![ezgif com-video-to-gif (1)](https://github.com/zahirmahammad/rotorSv1/assets/61276650/a94a0a52-3283-4bbf-8b03-5cbc0c5b7cbb)
 
 
