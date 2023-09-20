@@ -1,6 +1,7 @@
-# rotorSv1
-CrazyS package Updated
-Installation Instructions - Ubuntu 20.04 with ROS Noetic and Gazebo 11
+# rotorSv1 
+updated the rotorS Package - https://github.com/ethz-asl/rotors_simulator
+
+Installation - Ubuntu 20.04 with ROS Noetic and Gazebo 11
 -----------------------------------------------------------------------
 To use the code developed and stored in this repository some preliminary actions are needed. They are listed below.
 
